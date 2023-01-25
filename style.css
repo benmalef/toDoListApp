@@ -1,0 +1,33 @@
+
+body{
+    background-color: black;
+    
+}
+
+.container{
+    width: fit-content;
+}
+
+
+
+.backgroundToDoList{
+    background-color: aqua;
+}
+
+li{
+    margin-top: 1em;
+}
+
+li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
+}
+
+.delete{
+    animation: animate__bounceOut; 
+    animation-duration: 2s;
+}
+
