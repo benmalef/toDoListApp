@@ -7,7 +7,7 @@
 var buttons = document.querySelectorAll("button");
 var ol = document.querySelector("ol");
 var input = document.querySelector("input");
-const maxInputLength = 30;
+const maxInputLength = 20;
 
 function createButtonforList() {
   const newButton = document.createElement("button");
